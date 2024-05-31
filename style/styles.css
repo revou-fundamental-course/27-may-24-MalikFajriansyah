@@ -31,3 +31,17 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+.banner-container {
+    height: 400px;
+}
+
+.about-us {
+    height: 400px;
+    margin: 80px;
+}
+
+.contact-us {
+    height: 400px;
+    margin: 80px;
+}
