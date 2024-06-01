@@ -2,7 +2,7 @@
 html,
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins';
     margin: 0;
     padding: 0;
 }
@@ -31,6 +31,7 @@ body {
 .menu li a {
     text-decoration: none;
     color: #fff;
+    font-family: 'Poppins';
 }
 
 .banner-container {
@@ -38,15 +39,22 @@ body {
     height: 660px;
     background-image: url('../assets/bggunung.png');
     background-size: cover;
+    background-position: 69%;
 }
 
 .text-container {
     font-size: xx-large;
     color: whitesmoke;
     margin-left: 80px;
+    padding-top: 200px;
 }
 
 .about-us {
+    height: 400px;
+    margin: 80px;
+}
+
+.features {
     height: 400px;
     margin: 80px;
 }
@@ -55,3 +63,33 @@ body {
     height: 400px;
     margin: 80px;
 }
+
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .grid-item {
+    background-image: url('https://plus.unsplash.com/premium_photo-1664361480105-33afc4559c40?q=80&w=1846&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  
+  .item5 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  }
