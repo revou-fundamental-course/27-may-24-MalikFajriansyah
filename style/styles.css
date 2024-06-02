@@ -52,6 +52,7 @@ body {
 .about-us {
     height: 650px;
     margin: 80px;
+    color: #282525;
 }
 
 .container-about {
@@ -73,7 +74,7 @@ body {
 }
 
 .contact-us {
-    height: 400px;
+    height: 6500px;
     margin: 80px;
 }
 
@@ -86,8 +87,6 @@ body {
   }
   
   .grid-item {
-    background-image: url('https://plus.unsplash.com/premium_photo-1664361480105-33afc4559c40?q=80&w=1846&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-image: url('https://cdn.dribbble.com/userupload/14849314/file/original-b287e322c30fe357df294265d3ce4070.jpg?resize=1200x959');
     text-align: center;
     padding: 20px;
     font-size: 30px;
