@@ -228,3 +228,14 @@ body {
   padding: 10px 20px;
   z-index: 1000;
 }
+
+.copyright{
+  background-color: #282525;
+  padding: 20px;
+}
+.copyright p{
+  color: whitesmoke;
+  font-family: Bebas Nue, sans-serif;
+  text-align: center;
+  size: 20px;
+}
