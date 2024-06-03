@@ -92,14 +92,15 @@ body {
   font-weight: 900;
   padding-top: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .container-galery{
   max-width: 1224px;
   width: 90%;
   margin: auto;
-  padding: 40px 0;
+  padding: 40px, 0;
 }
-.galery{
+.photo-galery{
   display: flex;
   gap: 20px;
 }
@@ -115,7 +116,7 @@ body {
   object-fit: cover;
 }
 @media(max-width:768px){
-  .galery{
+  .photo-galery{
     flex-direction: column;
   }
 }
@@ -160,3 +161,8 @@ body {
   .item7 {
     grid-column: 3 / span 2;
   }
+
+footer{
+  background-color: whitesmoke;
+  height: 400px;
+}
