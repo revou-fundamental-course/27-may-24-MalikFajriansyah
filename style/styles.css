@@ -103,6 +103,7 @@ body {
 .photo-galery{
   display: flex;
   gap: 20px;
+  padding-bottom: 20px;
 }
 .column{
   display: flex;
@@ -121,6 +122,11 @@ body {
   }
 }
 
+.container-form{
+  background-color: whitesmokes;
+  margin: 80px;
+  height: 450px;
+}
 .grid-container {
     display: grid;
     gap: 10px;
@@ -162,7 +168,63 @@ body {
     grid-column: 3 / span 2;
   }
 
-footer{
+.container-contact{
+  display: flex;
+  margin: 80px;
+  color: #282525;
+  font-family: Poppins;
+  font-weight: 900;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-form{
+  flex: 1;
+  padding: 20px;
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.contact-form button{
+  padding: 10px 20px;
+  background-color: #282525;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.connect{
+  flex: 1;
+  padding: 20px;
+}
+.connect h2{
+  margin-bottom: 20px;
+}
+.social{
+  display: flex;
+  margin-left: 280px;
+}
+.social a{
+  display: inline-block;
+}
+.social img{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.notification {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: whitesmoke;
-  height: 400px;
+  color: #282525;
+  padding: 10px 20px;
+  z-index: 1000;
 }
