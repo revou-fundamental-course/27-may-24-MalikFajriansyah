@@ -2,7 +2,6 @@
 html,
 /* styles.css */
 body {
-    font-family: 'Poppins';
     margin: 0;
     padding: 0;
 }
@@ -47,12 +46,14 @@ body {
     color: whitesmoke;
     margin-left: 80px;
     padding-top: 200px;
+    font-family: Bebas Nue, sans-serif;
 }
 
 .about-us {
     height: 650px;
     margin: 80px;
     color: #282525;
+    font-family: Bebas Nue, sans-serif;
 }
 
 .container-about {
@@ -66,6 +67,7 @@ body {
     margin-left: 20px;
     font-size: x-large;
     font-weight: 600;
+    font-family: Poppins;
 }
 
 .list-features {
@@ -73,10 +75,22 @@ body {
     font-weight: 300;
 }
 
-.contact-us {
-    height: 6500px;
-    margin: 80px;
+.features {
+    height: 650px;
+    background-color: #282525;
 }
+  .image-container {
+    margin: 80px;
+  }
+
+  .image-container h1 {
+    color: whitesmoke;
+    position: relative;
+    font-family: Bebas Nue, sans-serif;
+    font-weight: 900;
+    padding-top: 20px;
+    text-align: center;
+  }
 
 
 .grid-container {
