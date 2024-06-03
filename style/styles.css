@@ -11,18 +11,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 10px 20px;
     color: #fff;
 }
 
 .logo img {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
 }
 
 .menu {
     list-style: none;
+    margin-right: 80px;
     display: flex;
     gap: 20px;
 }
@@ -35,7 +40,7 @@ body {
 
 .banner-container {
     width: 100%;
-    height: 660px;
+    height: 740px;
     background-image: url('../assets/bggunung.png');
     background-size: cover;
     background-position: 69%;
@@ -45,13 +50,16 @@ body {
     font-size: xx-large;
     color: whitesmoke;
     margin-left: 80px;
-    padding-top: 200px;
+    padding-top: 300px;
     font-family: Bebas Nue, sans-serif;
 }
 
 .about-us {
     height: 650px;
-    margin: 80px;
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
     color: #282525;
     font-family: Bebas Nue, sans-serif;
 }
@@ -75,23 +83,42 @@ body {
     font-weight: 300;
 }
 
-.features {
-    height: 650px;
+.discover{
     background-color: #282525;
 }
-  .image-container {
-    margin: 80px;
+.textdiscover{
+  color: whitesmoke;
+  font-family: Bebas Nue, sans-serif;
+  font-weight: 900;
+  padding-top: 20px;
+  text-align: center;
+}
+.container-galery{
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+.galery{
+  display: flex;
+  gap: 20px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+@media(max-width:768px){
+  .galery{
+    flex-direction: column;
   }
-
-  .image-container h1 {
-    color: whitesmoke;
-    position: relative;
-    font-family: Bebas Nue, sans-serif;
-    font-weight: 900;
-    padding-top: 20px;
-    text-align: center;
-  }
-
+}
 
 .grid-container {
     display: grid;
