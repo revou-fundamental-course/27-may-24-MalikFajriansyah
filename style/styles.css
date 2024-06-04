@@ -95,10 +95,8 @@ body {
   margin-bottom: 20px;
 }
 .container-galery{
-  max-width: 1224px;
-  width: 90%;
-  margin: auto;
-  padding: 40px, 0;
+  margin: 80px;
+  padding: 20px 0;
 }
 .photo-galery{
   display: flex;
@@ -109,6 +107,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.column:nth-child(3) {
+  flex: 0 0 25%;
 }
 .photo img{
   width: 100%;
@@ -138,10 +139,8 @@ body {
     text-align: center;
     padding: 20px;
     font-size: 30px;
-  }
-
-  .grid-item :hover {
-    color: aquamarine;
+    height: auto;
+    background-size: contain;
   }
   
   .item1 {
