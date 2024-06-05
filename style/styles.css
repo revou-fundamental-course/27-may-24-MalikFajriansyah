@@ -253,3 +253,123 @@ body {
 th {
   background-color: whitesmoke;
 }
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .logo img {
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;
+  }
+
+  .menu {
+      display: none;
+      flex-direction: column;
+      background-color: #282525;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      right: 0;
+      padding: 10px 20px;
+  }
+
+  .menu li {
+      margin-bottom: 10px;
+  }
+
+  .menu li a {
+      color: #fff;
+      font-family: 'Poppins';
+  }
+
+  .menu-toggle {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      cursor: pointer;
+  }
+
+  .menu-icon {
+      font-size: 24px;
+  }
+
+  .navbar {
+      justify-content: space-between;
+  }
+
+  .banner-container {
+      height: 400px;
+  }
+
+  .text-container {
+      margin-left: 20px;
+      padding-top: 200px;
+      font-size: x-large;
+  }
+
+  .about-us {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .text-about {
+      width: 100%;
+      margin-left: 0;
+      font-size: medium;
+  }
+
+  .list-features {
+      margin-left: 0;
+  }
+
+  .container-about {
+      flex-direction: column;
+  }
+
+  .grid-container {
+      width: 100%;
+  }
+
+  .container-contact {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contact-form {
+      width: 100%;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+      width: calc(100% - 20px);
+      margin-right: 10px;
+  }
+
+  .container-table {
+      width: 100%;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th,
+  td {
+      padding: 10px;
+      text-align: left;
+      width: calc(100% - 20px);
+  }
+
+  .connect {
+      margin-top: 20px;
+  }
+
+  .social a img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+  }
+}
