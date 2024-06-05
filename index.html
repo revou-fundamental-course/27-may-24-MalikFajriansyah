@@ -184,9 +184,9 @@
         <div class="contact-form">
           <h2>Contact Us</h2>
           <form id="contactForm">
-            <input type="text" placeholder="Your name" required>
-            <input type="email" placeholder="Your email" required>
-            <textarea placeholder="Your message" required></textarea>
+            <input type="text" placeholder="Your name" id="name" required>
+            <input type="email" placeholder="Your email" id="email" required>
+            <textarea placeholder="Your message" id="message" required></textarea>
             <button type="submit">Send Message</button>
           </form>
         </div>
@@ -197,6 +197,20 @@
             <a href="https://github.com/MalikFajriansyah"><img src="../assets/github.jpg" alt="Github"></a>
           </div>
         </div>
+      </div>
+      <div class="container-table">
+        <table>
+          <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody id="contactData">
+            <!-- Data yang akan ditambahkan oleh JavaScript -->
+        </tbody>
+        </table>
       </div>
       <div class="copyright">
         <p>@ 2024 Imagify || Imagify team (Malik Yus Fajriansyah - Front End Developer)</p>

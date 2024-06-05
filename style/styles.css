@@ -238,3 +238,22 @@ body {
   text-align: center;
   size: 20px;
 }
+
+.container-table {
+  font-family: Bebas Nue, sans-serif;
+  text-align: center;
+  size: 20px;
+  margin: 80px;
+  border: 1px solid black;
+}
+.container-table table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table th td {
+  margin: 10px;
+  text-align: left;
+}
+th {
+  background-color: whitesmoke;
+}
