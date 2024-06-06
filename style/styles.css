@@ -108,6 +108,7 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
 .column:nth-child(3) {
   flex: 0 0 25%;
 }
