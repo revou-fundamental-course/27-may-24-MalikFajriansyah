@@ -256,7 +256,7 @@ th {
 
 /* Responsive */
 @media only screen and (max-width: 768px) {
-  .logo img {
+  /* .logo img {
       width: 40px;
       height: 40px;
       margin-left: 20px;
@@ -297,7 +297,7 @@ th {
 
   .navbar {
       justify-content: space-between;
-  }
+  } */
 
   .banner-container {
       height: 400px;
